@@ -28,7 +28,7 @@ func main() {
 	gopeek my-csv-file.csv -f
 		Prints the entire file.
 		
-	gopeek my-csv-file.csv -f 100
+	gopeek my-csv-file.csv -n 100
 		Prints the first 100 lines.
 	`
 
