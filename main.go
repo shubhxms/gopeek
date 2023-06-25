@@ -49,14 +49,6 @@ func main() {
 
 	fileName := args[0]
 
-	// type ErrorHandling int
-
-	// const (
-	// 	ContinueOnError ErrorHandling = iota // Return a descriptive error.
-	// 	ExitOnError                          // Call os.Exit(2) or for -h/-help Exit(0).
-	// 	PanicOnError                         // Call panic with a descriptive error.
-	// )
-	
 	os.Args = notargs
 	allLines := flag.Bool("f", false, "bool if entire file is to be printed")
 	numRecords := flag.Int("n", 10, "number of lines to be printed")
